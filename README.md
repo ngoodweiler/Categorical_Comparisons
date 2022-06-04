@@ -17,3 +17,8 @@ Comparing different categorical modeling methods using real data from a processi
     - Linear
     - Poly
     - RBF
+
+### Extra Notes
+- Data will be standardized for KNN and SVM models using sklearn StandardScaler
+- Feature selection will occur per model
+- Initial cleaning will be performed and feature and outputs will be saved in separate CSV files to be utilized in separate notebooks for each model
