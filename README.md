@@ -22,3 +22,7 @@ Comparing different categorical modeling methods using real data from a processi
 - Data will be standardized for KNN and SVM models using sklearn StandardScaler
 - Feature selection will occur per model
 - Initial cleaning will be performed and feature and outputs will be saved in separate CSV files to be utilized in separate notebooks for each model
+
+## Final Results
+- Out of 7 total models, Random Forest yielded the highest score of 0.742 and offered a medium level of interpretability
+- The Radial Basis Function came in at a close second place with a score of 0.726, however it is more difficult to interpret how the model works
